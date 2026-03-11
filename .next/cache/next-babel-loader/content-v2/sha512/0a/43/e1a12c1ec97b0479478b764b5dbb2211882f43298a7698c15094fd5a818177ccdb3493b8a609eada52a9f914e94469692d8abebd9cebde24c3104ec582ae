@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { Header } from './header';","map":{"version":3,"sources":["/Users/juliogiampieregradoscaballero/Desktop/bizeus/dash/src/components/index.js"],"names":["Header"],"mappings":"AAAA,SAASA,MAAT,QAAuB,UAAvB","sourcesContent":["export { Header } from './header'\n"]},"metadata":{},"sourceType":"module"}
