@@ -20,6 +20,7 @@ const MyApp = ({ Component, pageProps, store }) => {
     <Provider store={store}>
       <Head>
         <title>Dashboard Bizeus</title>
+        <meta name="robots" content="noindex" />
         <link rel='shortcut icon' href='/static/img/favicon.png' />
       </Head>
       <ComponentToRender {...pageProps} />
