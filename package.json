@@ -25,7 +25,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.0",
-    "utils": "git+https://JulioGrados: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@github.com/JulioGrados/utilsbz.git"
+    "utils": "git+https://JulioGrados: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@github.com/JulioGrados/utilsbz.git"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.7",
