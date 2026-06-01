@@ -68,6 +68,14 @@ export const Base = ({ current, children }) => {
               </a>
             </Link>
           </Menu.Item>
+          <Menu.Item key='subscriptions'>
+            <Link href='/subscriptions'>
+              <a>
+                <Icon type='credit-card' />
+                <span>Suscripciones</span>
+              </a>
+            </Link>
+          </Menu.Item>
         </Menu>
       </Sider>
       <BaseContent>

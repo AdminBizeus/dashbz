@@ -7,12 +7,16 @@ import auth, { getAuthUser } from './auth'
 import user from './user'
 import connection from './connection'
 import company from './company'
+import subscription from './subscription'
+import payment from './payment'
 
 const reducers = combineReducers({
   auth,
   user,
   connection,
-  company
+  company,
+  subscription,
+  payment
 })
 
 const middleware = [createMiddleware, thunk]
