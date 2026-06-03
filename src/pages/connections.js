@@ -11,6 +11,11 @@ const columns = [
     render: (date) => moment(date).format('DD/MM/YYYY')
   },
   {
+    title: 'ID',
+    dataIndex: '_id',
+    key: '_id'
+  },
+  {
     title: 'Nombre',
     dataIndex: 'name',
     key: 'name'
