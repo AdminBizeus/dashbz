@@ -30,7 +30,8 @@ const columns = [
         'whatsapp-waha': 'cyan',
         'cloud-api': 'blue',
         'facebook': 'geekblue',
-        'instagram': 'purple'
+        'instagram': 'purple',
+        'tiktok': 'magenta'
       }
       return <Tag color={colors[channel] || 'default'}>{channel}</Tag>
     }
