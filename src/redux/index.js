@@ -9,6 +9,7 @@ import connection from './connection'
 import company from './company'
 import subscription from './subscription'
 import payment from './payment'
+import support from './support'
 
 const reducers = combineReducers({
   auth,
@@ -16,7 +17,8 @@ const reducers = combineReducers({
   connection,
   company,
   subscription,
-  payment
+  payment,
+  support
 })
 
 const middleware = [createMiddleware, thunk]

@@ -9,11 +9,6 @@ node_modules/
 dist/
 /.next
 
-# Variables de entorno
-.env*.local
-..env
-.env
-
 
 # Compiled Java class files
 *.class

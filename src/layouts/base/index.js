@@ -76,6 +76,14 @@ export const Base = ({ current, children }) => {
               </a>
             </Link>
           </Menu.Item>
+          <Menu.Item key='support'>
+            <Link href='/support'>
+              <a>
+                <Icon type='message' />
+                <span>Soporte</span>
+              </a>
+            </Link>
+          </Menu.Item>
         </Menu>
       </Sider>
       <BaseContent>
