@@ -31,7 +31,8 @@ const columns = [
         'cloud-api': 'blue',
         'facebook': 'geekblue',
         'instagram': 'purple',
-        'tiktok': 'magenta'
+        'tiktok': 'magenta',
+        'telegram': 'blue'
       }
       return <Tag color={colors[channel] || 'default'}>{channel}</Tag>
     }
@@ -73,7 +74,8 @@ const columns = [
     title: 'Teléfono',
     dataIndex: 'mobile',
     key: 'mobile',
-    render: (mobile) => mobile || 'N/A'
+    // Telegram no tiene teléfono: mostrar el @username del bot
+    render: (mobile, record) => mobile || (record.telegramBotUsername ? `@${record.telegramBotUsername}` : 'N/A')
   },
   {
     title: 'Equipos',
