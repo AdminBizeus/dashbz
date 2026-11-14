@@ -84,6 +84,14 @@ export const Base = ({ current, children }) => {
               </a>
             </Link>
           </Menu.Item>
+          <Menu.Item key='agent-proposals'>
+            <Link href='/agent-proposals'>
+              <a>
+                <Icon type='bulb' />
+                <span>Propuestas IA</span>
+              </a>
+            </Link>
+          </Menu.Item>
         </Menu>
       </Sider>
       <BaseContent>
